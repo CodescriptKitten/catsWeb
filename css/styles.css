@@ -87,26 +87,30 @@ nav ul {
 nav ul li {
     margin: 0 auto;
     display: inline-block;
+    font-size: 1.2em;
+    padding: 0 2em;
 }
 
 nav ul li a:link {
     text-decoration: none;
-    color: #CCAF9D;
+    color: #5C3317;
 }
 
 nav ul li a:hover {
     text-decoration: none;
     color: #F7A26C;
+    background-color: #5C3317;
 }
 
 nav ul li a:active {
     text-decoration: none;
-    color: #E76A1A;
+    color: #CCAF9D;
+    background-color: #804720;
 }
 
 nav ul li a:visited {
     text-decoration: none;
-    color: #E76A1A;
+    color: #804720;
 }
 
 .imageNav {
@@ -120,10 +124,42 @@ label {
 
 input {
     font-size: 1.2em;
+    background-color: #CCAF9D;
+    color:#5C3317;
+    border: solid;
+    border-color: #804720;
+    border-radius: 3px;
+    border-width: 2px;
 }
 
-.btn {
-    font-size: 1.3em;
+.btn:link {
+    font-size: 1.2em;
+    color: #CCAF9D;
+    background-color: #804720;
+    border: solid;
+    border-radius: 3px;
+    border-color: #F7A26C;
+    border-width: 2px;
+}
+
+.btn:hover {
+    font-size: 1.2em;
+    color: #5C3317;
+    background-color: #F7A26C;
+    border: solid;
+    border-radius: 3px;
+    border-color: #CCAF9D;
+    border-width: 2px;
+}
+
+.btn:active {
+    font-size: 1.2em;
+    color:#F7A26C;
+    background-color: #F7A26C;
+    border: solid;
+    border-radius: 3px;
+    border-color: #804720;
+    border-width: 2px;
 }
 
 header {
