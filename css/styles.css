@@ -114,8 +114,16 @@ nav ul li a:visited {
     display: block;
 }
 
-.btn {
+label {
+    font-size: 1.3em;
+}
 
+input {
+    font-size: 1.2em;
+}
+
+.btn {
+    font-size: 1.3em;
 }
 
 header {
