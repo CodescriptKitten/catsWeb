@@ -120,6 +120,11 @@ nav ul li a:visited {
 .imageNav {
     margin: 0 auto;
     display: block;
+    width: 100%;
+}
+
+img :not([class="imageNav"]) {
+    max-width: 24em;
 }
 
 label {
