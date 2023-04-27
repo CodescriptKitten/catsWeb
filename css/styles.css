@@ -7,7 +7,11 @@
 #CCAF9D - Desert Sand
 #E76A1A - Spanish Orang
 
+font-family: 'Roboto', sans-serif;
+
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
 
 *, *:after {
     margin: 0;
@@ -87,23 +91,31 @@ nav ul li {
 
 nav ul li a:link {
     text-decoration: none;
+    color: #CCAF9D;
 }
 
 nav ul li a:hover {
     text-decoration: none;
+    color: #F7A26C;
 }
 
 nav ul li a:active {
     text-decoration: none;
+    color: #E76A1A;
 }
 
 nav ul li a:visited {
     text-decoration: none;
+    color: #E76A1A;
 }
 
 .imageNav {
     margin: 0 auto;
     display: block;
+}
+
+.btn {
+
 }
 
 header {
